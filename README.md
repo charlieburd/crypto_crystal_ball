@@ -6,7 +6,7 @@ Create an interactive map that displays environment indicators for specific area
 
 Our machine learning model will be based around a linear regression. It will look at our indicators over a period of 10 years and help forecast which areas will continue to improve their environmental initiatives. As Dave approved, this will likely be more of a statisical analysis rather than a ML model.
 
-Cenus data can be very large, we plan to use a AWS db to store the data and Jupyternotebook to ETL the data.
+Cenus data can be very large, we plan to use a AWS db to store the data and Jupyternotebook and Pandas to ETL the data.
 
 ## TBD's
 Which indicators we would like to measure (air quality, noise pollution, communitiy park space), the area covered by the tool (the entire country, state, city) and the size of the scored sectors (county, zip code, neighborhood).
