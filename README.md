@@ -7,6 +7,6 @@ Create an interactive map that displays environment indicators for specific area
 TBD are which indicators we would like to measure, the area covered by the tool (country, state, city) and the size of the scored sectors (county, zip code, neighborhood)
 
 ## Team Members - Roles
- * Charlie Burd - Repo Management
+ * Charlie Burd - Information Manager
  * Emmanuel Martinez - Tool Creation
  * George Quintanilla - Framework Creation
