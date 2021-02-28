@@ -8,7 +8,8 @@ Our machine learning model will be based around a linear regression. It will loo
 
 Cenus data can be very large, we plan to use a AWS db to store the data and Jupyternotebook to ETL the data.
 
-TBD are which indicators we would like to measure (air quality, noise pollution, communitiy park space), the area covered by the tool (the entire country, state, city) and the size of the scored sectors (county, zip code, neighborhood).
+## TBD's
+Which indicators we would like to measure (air quality, noise pollution, communitiy park space), the area covered by the tool (the entire country, state, city) and the size of the scored sectors (county, zip code, neighborhood).
 
 
 ## Team Members - Roles
