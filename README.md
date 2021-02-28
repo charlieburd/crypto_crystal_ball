@@ -10,6 +10,6 @@ TBD are which indicators we would like to measure (air quality, noise pollution,
 
 
 ## Team Members - Roles
- * Charlie Burd - Information Manager
- * Emmanuel Martinez - Tool Creation
- * George Quintanilla - Framework Creation
+ * Charlie Burd - Information Manager (Square)
+ * Emmanuel Martinez - Tool Creation (Triangle)
+ * George Quintanilla - Framework Creation (Circle)
