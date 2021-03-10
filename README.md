@@ -1,5 +1,5 @@
 # CRYPTO CRISTAL BALL - Final Project 2021
-![logo](https://github.com/charlieburd/crypto_crystal_ball/edit/emmanuel_branch/blob/main/Resources/Images/Header.jpg?raw=true)
+![logo](https://github.com/charlieburd/crypto_crystal_ball/blob/emmanuel_branch/Resources/images/Header.jpg?raw=true)
 
 
 ## Machine Learning Model
