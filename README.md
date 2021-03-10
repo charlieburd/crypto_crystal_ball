@@ -38,6 +38,84 @@ The support vector machines in scikit-learn support both dense (`numpy.ndarray` 
 
 ![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/emmanuel_branch/Resources/images/SVC_Class.png?raw=true)
 
+
+`SVC` and `NuSVC` are similar methods, but accept slightly different sets of parameters and have different mathematical formulations (see section Mathematical formulation). On the other hand, `LinearSVC` is another implementation of Support Vector Classification for the case of a linear kernel. Note that `LinearSVC` does not accept keyword `kernel`, as this is assumed to be linear. It also lacks some of the members of `SVC` and `NuSVC`, like `support_`.
+
+As other classifiers, `SVC`, `NuSVC` and `LinearSVC` take as input two arrays: an array X of size `[n_samples, n_features]` holding the training samples, and an array y of class labels (strings or integers), size `[n_samples]`:
+
+````Python
+>>> from sklearn import svm
+>>> X = [[0, 0], [1, 1]]
+>>> y = [0, 1]
+>>> clf = svm.SVC()
+>>> clf.fit(X, y)  
+SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='auto', kernel='rbf',
+    max_iter=-1, probability=False, random_state=None, shrinking=True,
+    tol=0.001, verbose=False)
+````
+
+After being fitted, the model can then be used to predict new values:
+
+````Python
+>>> clf.predict([[2., 2.]])
+array([1])
+````
+
+SVMs decision function depends on some subset of the training data, called the support vectors. Some properties of these support vectors can be found in members `support_vectors_`, `support_` and `n_support`:
+
+````Python
+>>> # get support vectors
+>>> clf.support_vectors_
+array([[ 0.,  0.],
+       [ 1.,  1.]])
+>>> # get indices of support vectors
+>>> clf.support_ 
+array([0, 1]...)
+>>> # get number of support vectors for each class
+>>> clf.n_support_ 
+array([1, 1]...)
+````
+
+### Multi-Class Classification¶
+`SVC` and `NuSVC` implement the “one-against-one” approach (Knerr et al., 1990) for multi- class classification. If `n_class` is the number of classes, then `n_class * (n_class - 1) / 2` classifiers are constructed and each one trains data from two classes. To provide a consistent interface with other classifiers, the `decision_function_shape` option allows to aggregate the results of the “one-against-one” classifiers to a decision function of shape `(n_samples, n_classes)`:
+
+````Python
+>>> X = [[0], [1], [2], [3]]
+>>> Y = [0, 1, 2, 3]
+>>> clf = svm.SVC(decision_function_shape='ovo')
+>>> clf.fit(X, Y) 
+SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovo', degree=3, gamma='auto', kernel='rbf',
+    max_iter=-1, probability=False, random_state=None, shrinking=True,
+    tol=0.001, verbose=False)
+>>> dec = clf.decision_function([[1]])
+>>> dec.shape[1] # 4 classes: 4*3/2 = 6
+6
+>>> clf.decision_function_shape = "ovr"
+>>> dec = clf.decision_function([[1]])
+>>> dec.shape[1] # 4 classes
+4
+````
+
+On the other hand, `LinearSVC` implements “one-vs-the-rest” multi-class strategy, thus training n_class models. If there are only two classes, only one model is trained:
+
+````Python
+>>> lin_clf = svm.LinearSVC()
+>>> lin_clf.fit(X, Y) 
+LinearSVC(C=1.0, class_weight=None, dual=True, fit_intercept=True,
+     intercept_scaling=1, loss='squared_hinge', max_iter=1000,
+     multi_class='ovr', penalty='l2', random_state=None, tol=0.0001,
+     verbose=0)
+>>> dec = lin_clf.decision_function([[1]])
+>>> dec.shape[1]
+4
+````
+
+See [Mathematical formulation](https://sklearn.org/modules/svm.html#svm-mathematical-formulation) for a complete description of the decision function.
+
+Note that the LinearSVC also implements an alternative multi-class strategy, the so-called multi-class SVM formulated by Crammer and Singer, by using the option multi_class='crammer_singer'. This method is consistent, which is not true for one-vs-rest classification. In practice, one-vs-rest classification is usually preferred, since the results are mostly similar, but the runtime is significantly less.
+
 ### Regression
 
 The method of Support Vector Classification can be extended to solve regression problems. This method is called Support Vector Regression.
