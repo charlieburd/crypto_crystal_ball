@@ -1,8 +1,8 @@
-# CRYPTO CRYSTAL BALL - Final Project 2021
+# CRYPTO CRYSTAL BALL
 ![logo](https://github.com/charlieburd/crypto_crystal_ball/blob/emmanuel_branch/Resources/images/Header.jpg?raw=true)
 
 
-## Machine Learning Model
+## Machine Learning Model - Final Project 2021
 > Bitcoin and other Cryptocurrencies Price Prediction with Machine Learning for the Next 30 Days
 
 In our final project, our team used Machine Learning Support Vector Regression (SVR) model as a Data Science and Analytics cryptocurrency prediction.
