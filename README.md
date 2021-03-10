@@ -14,7 +14,30 @@ This new assignment consists of three technical analysis deliverables and a prop
 * Data Tools:  `MyBitcoinPredictionApp.ipynb`.
 * Software: `Python 3.9`, `Visual Studio Code 1.50.0`, `Anaconda 4.8.5`, `Jupyter Notebook 6.1.4` and `Pandas` 
 
-## sklearn.svm.SVR
+## Machine Learning Model (sklearn.svm.SVR)
+### Support Vector Machines (SVM)
+
+**Support vector machines (SVMs)** are a set of supervised learning methods used for [classificationa](https://sklearn.org/modules/svm.html#svm-classification), [regression](https://sklearn.org/modules/svm.html#svm-regression) and [outliers detection](https://sklearn.org/modules/svm.html#svm-outlier-detection).
+
+The advantages of support vector machines are:
+
+* Effective in high dimensional spaces.
+* Still effective in cases where number of dimensions is greater than the number of samples.
+* Uses a subset of training points in the decision function (called support vectors), so it is also memory efficient.
+* Versatile: different [Kernel functions](https://sklearn.org/modules/svm.html#svm-kernels) can be specified for the decision function. Common kernels are provided, but it is also possible to specify custom kernels.
+
+The disadvantages of support vector machines include:
+
+* If the number of features is much greater than the number of samples, avoid over-fitting in choosing [Kernel functions](https://sklearn.org/modules/svm.html#svm-kernels) and regularization term is crucial.
+* SVMs do not directly provide probability estimates, these are calculated using an expensive five-fold cross-validation (see [Scores and probabilities](https://sklearn.org/modules/svm.html#scores-probabilities), below).
+
+The support vector machines in scikit-learn support both dense (`numpy.ndarray` and convertible to that by `numpy.asarray`) and sparse (any `scipy.sparse`) sample vectors as input. However, to use an SVM to make predictions for sparse data, it must have been fit on such data. For optimal performance, use C-ordered `numpy.ndarray` (dense) or `scipy.sparse.csr_matrix` (sparse) with `dtype=float64`.
+
+### Classification
+`SVC`, `NuSVC` and `LinearSVC` are classes capable of performing multi-class classification on a dataset.
+
+![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/emmanuel_branch/Resources/images/SVC_Class.png?raw=true)
+
 ### Regression
 
 The method of Support Vector Classification can be extended to solve regression problems. This method is called Support Vector Regression.
@@ -43,8 +66,8 @@ Examples:
 
 A support vector machine constructs a hyper-plane or set of hyper-planes in a high or infinite dimensional space, which can be used for classification, regression or other tasks. Intuitively, a good separation is achieved by the hyper-plane that has the largest distance to the nearest training data points of any class (so-called functional margin), since in general the larger the margin the lower the generalization error of the classifier.
 
-
 ![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/emmanuel_branch/Resources/images/mf1.png?raw=true)
+
 
 ## Project Idea
 
