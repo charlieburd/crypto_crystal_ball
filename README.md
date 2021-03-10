@@ -10,7 +10,7 @@ In our final project, our team used Machine Learning Support Vector Regression (
 ## Resources and DataSets:
 This new assignment consists of three technical analysis deliverables and a proposal for further statistical study:
 
-* Data Source: `Bitcoin_1_Min_Historical_Data_2012_to_2020.csv` from [Bitcoin Historical Data](https://www.kaggle.com/mczielinski/bitcoin-historical-data)
+* Data Source: `Bitcoin_1_Min_Historical_Data_2012_to_2020.csv` from [Kaggle - Bitcoin Historical Data](https://www.kaggle.com/mczielinski/bitcoin-historical-data)
 * Data Tools:  `MyBitcoinPredictionApp.ipynb`.
 * Software: `Python 3.9`, `Visual Studio Code 1.50.0`, `Anaconda 4.8.5`, `Jupyter Notebook 6.1.4` and `Pandas` 
 
