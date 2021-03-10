@@ -1,4 +1,4 @@
-# CRYPTO CRISTAL BALL - Final Project 2021
+# CRYPTO CRYSTAL BALL - Final Project 2021
 ![logo](https://github.com/charlieburd/crypto_crystal_ball/blob/emmanuel_branch/Resources/images/Header.jpg?raw=true)
 
 
