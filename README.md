@@ -3,9 +3,13 @@
 
 
 ## Machine Learning Model - Final Project 2021
-> Bitcoin and other Cryptocurrencies Price Prediction with Machine Learning for the Next 30 Days
 
-In our final project, our team used Machine Learning Support Vector Regression (SVR) model as a Data Science and Analytics cryptocurrency prediction.
+In our final project, our team used Machine Learning Support Vector Regression (SVR) model as a Data Science and Analytics cryptocurrency prediction. Bitcoin and other Cryptocurrencies Price Prediction with Machine Learning for the Next 30 Days.
+
+## Team Members - Roles
+ * Charlie Burd - Information Manager (Square)
+ * Emmanuel Martinez - Tool Creation (Triangle)
+ * George Quintanilla - Framework Creation (Circle)
 
 ## Resources and DataSets:
 This new assignment consists of three technical analysis deliverables and a proposal for further statistical study:
@@ -147,11 +151,3 @@ A support vector machine constructs a hyper-plane or set of hyper-planes in a hi
 ![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/emmanuel_branch/Resources/images/mf1.png?raw=true)
 
 
-## Project Idea
-
-Create a model that will predict crypto prices. The model will be trained/tested with Bitcoin 2020 pricing data and applied to other cryptocurrencies that may mimic the behavior of bitcoin. Bitcoin family cryptos would have the closest similarities, like Bitcoin Cash and Bitcoin SV.
-
-## Team Members - Roles
- * Charlie Burd - Information Manager (Square)
- * Emmanuel Martinez - Tool Creation (Triangle)
- * George Quintanilla - Framework Creation (Circle)
