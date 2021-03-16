@@ -74,15 +74,12 @@ Please find below our Machine Learning Solution:
 > See below the results, 
 
 ![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/main/Resources/images/ML_Yahoo_Finance_Stock%20-%20OPTION%20%236.JPG?raw=true)
-### Theming and templates in Python
 
-The Plotly Python library comes pre-loaded with several themes that you can get started using right away, and it also provides support for creating and registering your own themes.
 
-> Note on terminology: Theming generally refers to the process of defining default styles for visual elements. Themes in plotly are implemented using objects called templates. Templates are slightly more general than traditional themes because in addition to defining default styles, templates can pre-populate a figure with visual elements like annotations, shapes, images, and more. In the documentation we will refer to the overall process of defining default styles as theming, and when in comes to the plotly API we will talk about how themes are implemented using templates.
- 
+> Let's review some good notes, 
 
 ## Machine Learning Model (sklearn.svm.SVR)
-> Let's have a quick review from Support Vector Regression Model (SVR Model or SVM), below you may find Regression notes and insight information. 
+> From Support Vector Regression Model (SVR Model or SVM), below you may find Regression notes and insight information. 
 
 ### Support Vector Machines (SVM)
 
@@ -214,6 +211,13 @@ Examples:
 A support vector machine constructs a hyper-plane or set of hyper-planes in a high or infinite dimensional space, which can be used for classification, regression or other tasks. Intuitively, a good separation is achieved by the hyper-plane that has the largest distance to the nearest training data points of any class (so-called functional margin), since in general the larger the margin the lower the generalization error of the classifier.
 
 ![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/emmanuel_branch/Resources/images/mf1.png?raw=true)
+
+
+## PLOTLY - Theming and templates in Python
+
+The Plotly Python library comes pre-loaded with several themes that you can get started using right away, and it also provides support for creating and registering your own themes.
+
+> Note on terminology: Theming generally refers to the process of defining default styles for visual elements. Themes in plotly are implemented using objects called templates. Templates are slightly more general than traditional themes because in addition to defining default styles, templates can pre-populate a figure with visual elements like annotations, shapes, images, and more. In the documentation we will refer to the overall process of defining default styles as theming, and when in comes to the plotly API we will talk about how themes are implemented using templates.
 
 
 ### Using built-in themes
