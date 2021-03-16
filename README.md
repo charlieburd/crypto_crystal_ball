@@ -234,19 +234,19 @@ for template in ["plotly", "plotly_white", "plotly_dark", "ggplot2", "seaborn", 
 ````
 
 
-![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/emmanuel_branch/Resources/images/pgl1.JPG?raw=true)
+![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/main/Resources/images/pgl1.JPG?raw=true)
 
-![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/emmanuel_branch/Resources/images/pgl2.JPG?raw=true)
+![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/main/Resources/images/pgl2.JPG?raw=true)
 
-![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/emmanuel_branch/Resources/images/pgl3.JPG?raw=true)
+![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/main/Resources/images/pgl3.JPG?raw=true)
 
-![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/emmanuel_branch/Resources/images/pgl4.JPG?raw=true)
+![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/main/Resources/images/pgl4.JPG?raw=true)
 
-![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/emmanuel_branch/Resources/images/pgl5.JPG?raw=true)
+![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/main/Resources/images/pgl5.JPG?raw=true)
 
-![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/emmanuel_branch/Resources/images/pgl6.JPG?raw=true)
+![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/main/Resources/images/pgl6.JPG?raw=true)
 
-![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/emmanuel_branch/Resources/images/pgl7.JPG?raw=true)
+![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/main/Resources/images/pgl7.JPG?raw=true)
 
 
 
@@ -274,19 +274,19 @@ for template in ["plotly", "plotly_white", "plotly_dark", "ggplot2", "seaborn", 
 ````
 
 
-![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/emmanuel_branch/Resources/images/pgl8.JPG?raw=true)
+![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/main/Resources/images/pgl8.JPG?raw=true)
 
-![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/emmanuel_branch/Resources/images/pgl9.JPG?raw=true)
+![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/main/Resources/images/pgl9.JPG?raw=true)
 
-![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/emmanuel_branch/Resources/images/pgl10.JPG?raw=true)
+![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/main/Resources/images/pgl10.JPG?raw=true)
 
-![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/emmanuel_branch/Resources/images/pgl11.JPG?raw=true)
+![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/main/Resources/images/pgl11.JPG?raw=true)
 
-![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/emmanuel_branch/Resources/images/pgl12.JPG?raw=true)
+![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/main/Resources/images/pgl12.JPG?raw=true)
 
-![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/emmanuel_branch/Resources/images/pgl13.JPG?raw=true)
+![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/main/Resources/images/pgl13.JPG?raw=true)
 
-![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/emmanuel_branch/Resources/images/pgl14.JPG?raw=true)
+![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/main/Resources/images/pgl14.JPG?raw=true)
 
 
 
