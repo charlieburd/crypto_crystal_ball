@@ -160,4 +160,135 @@ In our final project, our team inegrated several Jupyter Notebook Modules, Packa
 
 Please find below our Machine Learning Solution:
 
+## CORE CODE:
+
+![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/main/Resources/images/ML_Yahoo_Finance_Stock%20-%20Part%201.JPG?raw=true)
+
+![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/main/Resources/images/ML_Yahoo_Finance_Stock%20-%20Part%202.JPG?raw=true)
+
+![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/main/Resources/images/ML_Yahoo_Finance_Stock%20-%20Part%203.JPG?raw=true)
+
+![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/main/Resources/images/ML_Yahoo_Finance_Stock%20-%20Part%204.JPG?raw=true)
+
+![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/main/Resources/images/ML_Yahoo_Finance_Stock%20-%20Part%205.JPG?raw=true)
+
+![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/main/Resources/images/ML_Yahoo_Finance_Stock%20-%20Part%206.JPG?raw=true)
+
+![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/main/Resources/images/ML_Yahoo_Finance_Stock%20-%20Part%207.JPG?raw=true)
+
+## MACHINE LEARNING RESULTS:
+
+![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/main/Resources/images/ML_Yahoo_Finance_Stock%20-%20OPTION%20%231.JPG?raw=true)
+
+![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/main/Resources/images/ML_Yahoo_Finance_Stock%20-%20OPTION%20%232.JPG?raw=true)
+
+![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/main/Resources/images/ML_Yahoo_Finance_Stock%20-%20OPTION%20%233.JPG?raw=true)
+
+![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/main/Resources/images/ML_Yahoo_Finance_Stock%20-%20OPTION%20%234.JPG?raw=true)
+
+![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/main/Resources/images/ML_Yahoo_Finance_Stock%20-%20OPTION%20%235.JPG?raw=true)
+
+
+### Theming and templates in Python
+
+The Plotly Python library comes pre-loaded with several themes that you can get started using right away, and it also provides support for creating and registering your own themes.
+
+> Note on terminology: Theming generally refers to the process of defining default styles for visual elements. Themes in plotly are implemented using objects called templates. Templates are slightly more general than traditional themes because in addition to defining default styles, templates can pre-populate a figure with visual elements like annotations, shapes, images, and more. In the documentation we will refer to the overall process of defining default styles as theming, and when in comes to the plotly API we will talk about how themes are implemented using templates.
+
+### Using built-in themes
+##### View available themes
+To see information about the available themes and the current default theme, display the plotly.io.templates configuration object like this.
+
+````python
+import plotly.io as pio
+pio.templates
+````
+
+Templates configuration
+-----------------------
+````python
+    Default template: 'plotly'
+    Available templates:
+        ['ggplot2', 'seaborn', 'simple_white', 'plotly',
+         'plotly_white', 'plotly_dark', 'presentation', 'xgridoff',
+         'ygridoff', 'gridon', 'none']
+````
+
+From this, we can see that the default theme is "plotly", and we can see the names of several additional themes that we can choose from.
+
+### Specifying themes in Plotly Express
+All Plotly Express functions accept a template argument that can be set to the name of a registered theme (or to a Template object as discussed later in this section). Here is an example of using Plotly Express to build and display the same scatter plot with six different themes.
+
+````python
+import plotly.express as px
+
+df = px.data.gapminder()
+df_2007 = df.query("year==2007")
+
+for template in ["plotly", "plotly_white", "plotly_dark", "ggplot2", "seaborn", "simple_white", "none"]:
+    fig = px.scatter(df_2007,
+                     x="gdpPercap", y="lifeExp", size="pop", color="continent",
+                     log_x=True, size_max=60,
+                     template=template, title="Gapminder 2007: '%s' theme" % template)
+    fig.show()
+````
+
+
+![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/emmanuel_branch/Resources/images/pgl1.JPG?raw=true)
+
+![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/emmanuel_branch/Resources/images/pgl2.JPG?raw=true)
+
+![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/emmanuel_branch/Resources/images/pgl3.JPG?raw=true)
+
+![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/emmanuel_branch/Resources/images/pgl4.JPG?raw=true)
+
+![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/emmanuel_branch/Resources/images/pgl5.JPG?raw=true)
+
+![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/emmanuel_branch/Resources/images/pgl6.JPG?raw=true)
+
+![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/emmanuel_branch/Resources/images/pgl7.JPG?raw=true)
+
+
+
+### Specifying themes in graph object figures
+The theme for a particular graph object figure can be specified by setting the template property of the figure's layout to the name of a registered theme (or to a Template object as discussed later in this section). Here is an example of constructing a surface plot and then displaying it with each of six themes.
+
+````python
+import plotly.graph_objects as go
+import pandas as pd
+
+z_data = pd.read_csv("https://raw.githubusercontent.com/plotly/datasets/master/api_docs/mt_bruno_elevation.csv")
+
+fig = go.Figure(
+    data=go.Surface(z=z_data.values),
+    layout=go.Layout(
+        title="Mt Bruno Elevation",
+        width=500,
+        height=500,
+    ))
+
+for template in ["plotly", "plotly_white", "plotly_dark", "ggplot2", "seaborn", "simple_white", "none"]:
+    fig.update_layout(template=template, title="Mt Bruno Elevation: '%s' theme" % template)
+    fig.show()
+    
+````
+
+
+![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/emmanuel_branch/Resources/images/pgl8.JPG?raw=true)
+
+![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/emmanuel_branch/Resources/images/pgl9.JPG?raw=true)
+
+![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/emmanuel_branch/Resources/images/pgl10.JPG?raw=true)
+
+![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/emmanuel_branch/Resources/images/pgl11.JPG?raw=true)
+
+![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/emmanuel_branch/Resources/images/pgl12.JPG?raw=true)
+
+![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/emmanuel_branch/Resources/images/pgl13.JPG?raw=true)
+
+![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/emmanuel_branch/Resources/images/pgl14.JPG?raw=true)
+
+
+
+
 
