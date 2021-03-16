@@ -18,6 +18,69 @@ This new assignment consists of three technical analysis deliverables and a prop
 * Data Tools:  `ml_yahoo_fianance_stock.py`, `MyBitcoinPredictionApp.ipynb`.
 * Software: `CoLab - Google`, `Python 3.9`, `Visual Studio Code 1.50.0`, `Anaconda 4.8.5`, `Jupyter Notebook 6.1.4` and `Pandas` 
 
+
+## Yahoo! Finance as Machine Learning Prediction over the Most US Volatile Stocks 
+
+In our final project, our team inegrated several Jupyter Notebook Modules, Packages and installed multiples Python Libraries to integrate our SVR Module to predict in our 2021 volatile exchange marcket in US. 
+
+Please find below our Machine Learning Solution:
+
+## CORE CODE:
+
+![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/main/Resources/images/ML_Yahoo_Finance_Stock%20-%20Part%201.JPG?raw=true)
+
+![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/main/Resources/images/ML_Yahoo_Finance_Stock%20-%20Part%202.JPG?raw=true)
+
+![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/main/Resources/images/ML_Yahoo_Finance_Stock%20-%20Part%203.JPG?raw=true)
+
+![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/main/Resources/images/ML_Yahoo_Finance_Stock%20-%20Part%204.JPG?raw=true)
+
+![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/main/Resources/images/ML_Yahoo_Finance_Stock%20-%20Part%205.JPG?raw=true)
+
+![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/main/Resources/images/ML_Yahoo_Finance_Stock%20-%20Part%206.JPG?raw=true)
+
+![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/main/Resources/images/ML_Yahoo_Finance_Stock%20-%20Part%207.JPG?raw=true)
+
+## MACHINE LEARNING RESULTS:
+
+> As a results, we're using "**$BAC**" (***Bank of America NA***) analysis versus "**$C**" (***Citigroup Inc.***)
+
+#### Option No 1: Machine Learning 15 days Prediction (SVR Model) from Your Stock "BAC" Tricker.
+> See below the results, 
+
+![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/main/Resources/images/ML_Yahoo_Finance_Stock%20-%20OPTION%20%231.JPG?raw=true)
+
+#### Option No 2: Machine Learning 30 days Prediction (SVR Model) from Your Stock "BAC" Tricker.
+> See below the results, 
+
+![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/main/Resources/images/ML_Yahoo_Finance_Stock%20-%20OPTION%20%232.JPG?raw=true)
+
+#### Option No 3: Price Date Range Chart (YYY-MM-DD) from your Stock "BAC" Tricker.
+> See below the results, 
+
+![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/main/Resources/images/ML_Yahoo_Finance_Stock%20-%20OPTION%20%233.JPG?raw=true)
+
+#### Option No 4: Price Comparison from your Stock "BAC" Tricker with another Tricker.
+> See below the results, 
+
+![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/main/Resources/images/ML_Yahoo_Finance_Stock%20-%20OPTION%20%234.JPG?raw=true)
+
+#### Option No 5: Your Stock "BAC" Tricker 180 Past-Days Analysis.
+> See below the results, 
+
+![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/main/Resources/images/ML_Yahoo_Finance_Stock%20-%20OPTION%20%235.JPG?raw=true)
+
+#### Option No 6: Quit and Restart the Process using different Symbol or Stock Tricker.
+> See below the results, 
+
+![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/main/Resources/images/ML_Yahoo_Finance_Stock%20-%20OPTION%20%236.JPG?raw=true)
+### Theming and templates in Python
+
+The Plotly Python library comes pre-loaded with several themes that you can get started using right away, and it also provides support for creating and registering your own themes.
+
+> Note on terminology: Theming generally refers to the process of defining default styles for visual elements. Themes in plotly are implemented using objects called templates. Templates are slightly more general than traditional themes because in addition to defining default styles, templates can pre-populate a figure with visual elements like annotations, shapes, images, and more. In the documentation we will refer to the overall process of defining default styles as theming, and when in comes to the plotly API we will talk about how themes are implemented using templates.
+ 
+
 ## Machine Learning Model (sklearn.svm.SVR)
 > Let's have a quick review from Support Vector Regression Model (SVR Model or SVM), below you may find Regression notes and insight information. 
 
@@ -152,48 +215,6 @@ A support vector machine constructs a hyper-plane or set of hyper-planes in a hi
 
 ![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/emmanuel_branch/Resources/images/mf1.png?raw=true)
 
-
-
-## Yahoo! Finance as Machine Learning Prediction over the Most US Volatile Stocks 
-
-In our final project, our team inegrated several Jupyter Notebook Modules, Packages and installed multiples Python Libraries to integrate our SVR Module to predict in our 2021 volatile exchange marcket in US. 
-
-Please find below our Machine Learning Solution:
-
-## CORE CODE:
-
-![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/main/Resources/images/ML_Yahoo_Finance_Stock%20-%20Part%201.JPG?raw=true)
-
-![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/main/Resources/images/ML_Yahoo_Finance_Stock%20-%20Part%202.JPG?raw=true)
-
-![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/main/Resources/images/ML_Yahoo_Finance_Stock%20-%20Part%203.JPG?raw=true)
-
-![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/main/Resources/images/ML_Yahoo_Finance_Stock%20-%20Part%204.JPG?raw=true)
-
-![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/main/Resources/images/ML_Yahoo_Finance_Stock%20-%20Part%205.JPG?raw=true)
-
-![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/main/Resources/images/ML_Yahoo_Finance_Stock%20-%20Part%206.JPG?raw=true)
-
-![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/main/Resources/images/ML_Yahoo_Finance_Stock%20-%20Part%207.JPG?raw=true)
-
-## MACHINE LEARNING RESULTS:
-
-![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/main/Resources/images/ML_Yahoo_Finance_Stock%20-%20OPTION%20%231.JPG?raw=true)
-
-![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/main/Resources/images/ML_Yahoo_Finance_Stock%20-%20OPTION%20%232.JPG?raw=true)
-
-![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/main/Resources/images/ML_Yahoo_Finance_Stock%20-%20OPTION%20%233.JPG?raw=true)
-
-![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/main/Resources/images/ML_Yahoo_Finance_Stock%20-%20OPTION%20%234.JPG?raw=true)
-
-![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/main/Resources/images/ML_Yahoo_Finance_Stock%20-%20OPTION%20%235.JPG?raw=true)
-
-
-### Theming and templates in Python
-
-The Plotly Python library comes pre-loaded with several themes that you can get started using right away, and it also provides support for creating and registering your own themes.
-
-> Note on terminology: Theming generally refers to the process of defining default styles for visual elements. Themes in plotly are implemented using objects called templates. Templates are slightly more general than traditional themes because in addition to defining default styles, templates can pre-populate a figure with visual elements like annotations, shapes, images, and more. In the documentation we will refer to the overall process of defining default styles as theming, and when in comes to the plotly API we will talk about how themes are implemented using templates.
 
 ### Using built-in themes
 ##### View available themes
