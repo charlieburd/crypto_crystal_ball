@@ -15,13 +15,15 @@ In our final project, our team used Machine Learning Support Vector Regression (
 This new assignment consists of three technical analysis deliverables and a proposal for further statistical study:
 
 * Data Source: `Bitcoin_1_Min_Historical_Data_2012_to_2020.csv` from [Kaggle - Bitcoin Historical Data](https://www.kaggle.com/mczielinski/bitcoin-historical-data)
-* Data Tools:  `MyBitcoinPredictionApp.ipynb`.
-* Software: `Python 3.9`, `Visual Studio Code 1.50.0`, `Anaconda 4.8.5`, `Jupyter Notebook 6.1.4` and `Pandas` 
+* Data Tools:  `ml_yahoo_fianance_stock.py`, `MyBitcoinPredictionApp.ipynb`.
+* Software: `CoLab - Google`, `Python 3.9`, `Visual Studio Code 1.50.0`, `Anaconda 4.8.5`, `Jupyter Notebook 6.1.4` and `Pandas` 
 
 ## Machine Learning Model (sklearn.svm.SVR)
+> Let's have a quick review from Support Vector Regression Model (SVR Model or SVM), below you may find Regression notes and insight information. 
+
 ### Support Vector Machines (SVM)
 
-**Support vector machines (SVMs)** are a set of supervised learning methods used for [classificationa](https://sklearn.org/modules/svm.html#svm-classification), [regression](https://sklearn.org/modules/svm.html#svm-regression) and [outliers detection](https://sklearn.org/modules/svm.html#svm-outlier-detection).
+**Support vector machines (SVMs)** are a set of supervised learning methods used for [classification](https://sklearn.org/modules/svm.html#svm-classification), [regression](https://sklearn.org/modules/svm.html#svm-regression) and [outliers detection](https://sklearn.org/modules/svm.html#svm-outlier-detection).
 
 The advantages of support vector machines are:
 
@@ -149,5 +151,13 @@ Examples:
 A support vector machine constructs a hyper-plane or set of hyper-planes in a high or infinite dimensional space, which can be used for classification, regression or other tasks. Intuitively, a good separation is achieved by the hyper-plane that has the largest distance to the nearest training data points of any class (so-called functional margin), since in general the larger the margin the lower the generalization error of the classifier.
 
 ![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/emmanuel_branch/Resources/images/mf1.png?raw=true)
+
+
+
+## Yahoo! Finance as Machine Learning Prediction over the Most US Volatile Stocks 
+
+In our final project, our team inegrated several Jupyter Notebook Modules, Packages and installed multiples Python Libraries to integrate our SVR Module to predict in our 2021 volatile exchange marcket in US. 
+
+Please find below our Machine Learning Solution:
 
 
