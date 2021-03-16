@@ -290,5 +290,42 @@ for template in ["plotly", "plotly_white", "plotly_dark", "ggplot2", "seaborn", 
 
 
 
+### Specifying a default themes
+If a theme is not provided to a Plotly Express function or to a graph object figure, then the default theme is used. The default theme starts out as "plotly", but it can be changed by setting the plotly.io.templates.default property to the name of a registered theme.
+
+Here is an example of changing to default theme to "plotly_white" and then constructing a scatter plot with Plotly Express without providing a template.
+
+Note: Default themes persist for the duration of a single session, but they do not persist across sessions. If you are working in an IPython kernel, this means that default themes will persist for the life of the kernel, but they will not persist across kernel restarts.
+
+````python
+import plotly.io as pio
+import plotly.express as px
+
+pio.templates.default = "plotly_white"
+
+df = px.data.gapminder()
+df_2007 = df.query("year==2007")
+
+fig = px.scatter(df_2007,
+                 x="gdpPercap", y="lifeExp", size="pop", color="continent",
+                 log_x=True, size_max=60,
+                 title="Gapminder 2007: current default theme")
+fig.show()
+````
+
+![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/main/Resources/images/pgl15.JPG?raw=true)
 
 
+### Disable default theming
+If you do not wish to use any of the new themes by default, or you want your figures to look exactly the way they did prior to plotly.py version 4, you can disable default theming by setting the default theme to "none".
+
+````python
+import plotly.io as pio
+pio.templates.default = "none"
+````
+
+#### Reference:  [Plotly | Graphing Libraries (Fundamentals and Theming Templates)](https://plotly.com/python/templates/)
+
+
+#### By Emmanuel Martinez, George Quintanilla and Charlie Burd.
+> FINAL PROJECT - Columbia Engineering 2021
