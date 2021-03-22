@@ -5,20 +5,18 @@
 https://docs.google.com/presentation/d/11-A77KxuFXHH2xDc9bvrYPjjifkujIl8LBE7ybXscUk/edit?usp=sharing
 
 ## Project Overview
-For our Columbia University Data Analytics Bootcamp our group analysied crytpocurrencies in two stages. The first was an analysis of the Top 10 most commonly traded coins from 2016-2021, this helped to educate both our group and the reader of the financial enviroment among crypotcyrencies. The second stage was creating a Machine Learning model that would predict these coins price for the next 30 days.
+For our Columbia University Data Analytics Bootcamp Project our group analyzed cryptocurrencies in two stages to help predict the future price. The first stage was an analysis of the Top 10 most traded coins from 2016-2021, this was to educate both our group and the reader of the financial environment among cryptocurrencies. The second stage was creating a Machine Learning model that would predict these coins prices for the next 30 days.
 
 ## Analysis
-The data for our Analysis portion of the project came from Facebook Prophet. Facebook Prophet is a opensource software that also provides relatively clean data for cryptocurrenies. The software can help forecast a time series, its built in models are mainly used to reconize yearly, weekly, and daily seasonality; we used this as an addative to our Machine Learning model. Through FB Phophet and Plotly we were able to create visualizations that helped breakdown the crytocurrenties market and its activity, like the one below the shows the volume of shares for the top coins traded in 2016. The rest of these visualizations are include in our Google Slides presntation above.
+The data for our Analysis portion of the project came from Facebook Prophet. Facebook Prophet is an opensource software that also provides relatively clean data for cryptocurrencies. The software can help forecast a time series, its built-in models are mainly used to recognize yearly, weekly, and daily seasonality; we used this as an additive to our Machine Learning model. Through FB Prophet and Plotly we were able to create visualizations that helped breakdown the cryptocurrencies market and its activity, like the one below that shows the volume of shares for the top traded coins since 2016. The rest of these visualizations are included in our Google Slides presentation, linked above.
 
 ![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/main/Resources/images/coin_volume_breakdown.png)
 
-
 ## Machine Learning Model
-
-To create a machine learning model we first began by sourcing Bitcoin pricing data from Kaggle. This data was minute over minute, because the amount of data that needed to be trained we used the most resent 3 months. Python and Sklearn was used to train/test our cleaned 3 month pricing data. Once the data was trained it was run through a Sklearn SVR (Support Vector Regression) model which was then altered to export a 30 day prediction for Bitcoin pricing
+To create a machine learning model, we first began by sourcing Bitcoin pricing data from Kaggle. This data was minute over minute, because the amount of data that needed to be trained, we used the most recent 3 months. Python and Sklearn was used to train/test our cleaned 3-month pricing data. Once the data was trained it was run through a Sklearn SVR (Support Vector Regression) model which was then altered to export a 30-day prediction for Bitcoin pricing
 
 ## Database
-PostgresSQL was used to store and manipulate data provided by FB Prohet before being imported to visualization breakdowns
+PostgresSQL was used to store and manipulate data provided by FB Prophet before being imported to Jupyter Notebooks for visualizations.
 
 ## Dashboard
-Our dashboard will be hosted by Dash, it will display a  dropdown menu with the 10 crytocurrencies analysized and predicted. Also available will be a timeframe calendar option. After a crytocurrencies and timeframe is selected a graph will apear with historical data for that time frame, as well as predicted data (up to 30 days) if the timeframe request includes future dates. This is not yet working and Angela has given us until Tuesday to sort it out. 
+Our dashboard will be hosted by Dash, it will display a dropdown menu with the 10 cryptocurrencies analyzed and predicted. Also available will be a timeframe calendar option. After a cryptocurrencies and timeframe is selected a graph will appear with historical pricing data for that time frame, as well as predicted data (up to 30 days) if the timeframe request includes future dates. This is not yet working; Angela has given us until Tuesday to sort it out.
