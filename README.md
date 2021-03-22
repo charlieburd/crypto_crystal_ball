@@ -1,15 +1,14 @@
 # CRYPTO CRYSTAL BALL
 ![logo](https://github.com/charlieburd/crypto_crystal_ball/blob/emmanuel_branch/Resources/images/Header.jpg?raw=true)
 
+## Google Slides Link
+https://docs.google.com/presentation/d/11-A77KxuFXHH2xDc9bvrYPjjifkujIl8LBE7ybXscUk/edit?usp=sharing
+
 
 ## Machine Learning Model - Final Project 2021
 
 In our final project, our team used Machine Learning Support Vector Regression (SVR) model as a Data Science and Analytics cryptocurrency prediction. Bitcoin and other Cryptocurrencies Price Prediction with Machine Learning for the Next 30 Days.
 
-## Team Members - Roles
- * Charlie Burd - Information Manager (Square)
- * Emmanuel Martinez - Tool Creation (Triangle)
- * George Quintanilla - Framework Creation (Circle)
 
 ## Resources and DataSets:
 This new assignment consists of three technical analysis deliverables and a proposal for further statistical study:
