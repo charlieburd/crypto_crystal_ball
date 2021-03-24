@@ -36,7 +36,7 @@ for currency in datasets['All_top_coins-updated-21.csv']['Currency Name'].unique
     })
 
 # Disclaimer on the bottom of Dashboard (Markdown text)
-disclaimer = 'Disclaimer: Eaque dolores alias molestiae ea rerum quis enim. Ea unde cum fugiat. Id et qui quidem.'
+disclaimer = 'Disclaimer: Past performance does not guarantee future results and current performance may be lower or higer than the past performance data quoted.'
 
 # Make a dict to convert currency name into filename
 dataset = {
