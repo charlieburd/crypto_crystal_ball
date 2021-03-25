@@ -19,4 +19,4 @@ To create a machine learning model, we first began by sourcing Bitcoin pricing d
 PostgresSQL was used to store and manipulate data provided by FB Prophet before being imported to Jupyter Notebooks for visualizations.
 
 ## Dashboard
-Our dashboard will be hosted by Dash, it will display a dropdown menu with the 10 cryptocurrencies analyzed and predicted. Also available will be a timeframe calendar option. After a cryptocurrencies and timeframe is selected a graph will appear with historical pricing data for that time frame, as well as predicted data (up to 30 days) if the timeframe request includes future dates. This is not yet working; Angela has given us until Tuesday to sort it out.
+Dashboard is hosted by Dash, it shows an interactive graph of the top 12 cryptocurrencies dating from 2016-Present. Our machine learning model is implemented to display a 30-day prediction for the top 5 cryptocurrencies (Bitcoin, Ethereum, Ripple, Litecoin and Tether) based on static data. Multiple coins can be displayed at once and selected areas of the graph can be enlarged with adapting axes. 
