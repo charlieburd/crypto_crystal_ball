@@ -13,7 +13,7 @@ The data for our Analysis portion of the project came from Facebook Prophet. Fac
 ![d1](https://github.com/charlieburd/crypto_crystal_ball/blob/main/Resources/images/coin_volume_breakdown.png)
 
 ## Machine Learning Model
-To create a machine learning model, we first began by sourcing Bitcoin pricing data from Kaggle. This data was minute over minute, because the amount of data that needed to be trained, we used the most recent 3 months. Python and Sklearn was used to train/test our cleaned 3-month pricing data. Once the data was trained it was run through a Sklearn SVR (Support Vector Regression) model which was then altered to export a 30-day prediction for Bitcoin pricing
+To create a machine learning model, we first began by sourcing Bitcoin pricing data from Yahoo Finance Live Data. This data was minute over minute, because the amount of data that needed to be trained, we used the most recent 3 months. Python and Sklearn was used to train/test our cleaned 3-month pricing data. Once the data was trained it was run through a Sklearn SVR (Support Vector Regression) model which was then altered to export a 30-day prediction for Bitcoin pricing
 
 ## Database
 PostgresSQL was used to store and manipulate data provided by FB Prophet before being imported to Jupyter Notebooks for visualizations.
