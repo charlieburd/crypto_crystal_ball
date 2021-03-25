@@ -20,3 +20,4 @@ PostgresSQL was used to store and manipulate data provided by FB Prophet before 
 
 ## Dashboard
 Dashboard is hosted by Dash, it shows an interactive graph of the top 12 cryptocurrencies dating from 2016-Present. Our machine learning model is implemented to display a 30-day prediction for the top 5 cryptocurrencies (Bitcoin, Ethereum, Ripple, Litecoin and Tether) based on static data. Multiple coins can be displayed at once and selected areas of the graph can be enlarged with adapting axes. 
+![logo](https://github.com/charlieburd/crypto_crystal_ball/blob/main/CrptoCrystalBall_DASHBOARD/assets/Dashboard.png)
