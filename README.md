@@ -1,4 +1,4 @@
-# CRYPTO CRYSTAL BALL
+# Cryptocurrency Crystal Ball
 ![logo](https://github.com/charlieburd/crypto_crystal_ball/blob/emmanuel_branch/Resources/images/Header.jpg?raw=true)
 
 ## Google Slides Link
